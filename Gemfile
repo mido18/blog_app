@@ -65,4 +65,6 @@ group :development, :test do
   gem 'factory_girl'
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'guard-rspec',require: false
+  gem 'spring-commands-rspec'
 end
